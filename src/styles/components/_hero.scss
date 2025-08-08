@@ -1,4 +1,22 @@
 .hero {
   width: 100vw;
   height: 100vh;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero .btn-primary  {
+  background-color: var(--text-color);
+  border: 1px solid lightgray;
+  color: rgb(213 184 211);
+  text-transform: uppercase;
+  &:hover {
+    cursor: pointer;
+  }
+
 }

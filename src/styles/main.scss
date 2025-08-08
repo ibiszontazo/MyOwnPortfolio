@@ -1,11 +1,11 @@
 :root {
-  --bg-color: #b5adff;
-  --text-color: white;
+  --bg-color: linear-gradient(#cfb4ec, #fff);
+  --text-color: #121212;
   --primary-color: #4e7dff;
 }
 
 [data-theme="dark"] {
-  --bg-color: #121212;
+  --bg-color: linear-gradient(#121212, #2e2e2e);
   --text-color: #f5f5f5;
   --primary-color: #90caf9;
 }
