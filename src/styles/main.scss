@@ -1,6 +1,6 @@
 :root {
-  --bg-color: pink; //#ffffff;
-  --text-color: #222222;
+  --bg-color: #b5adff;
+  --text-color: white;
   --primary-color: #4e7dff;
 }
 
@@ -10,10 +10,52 @@
   --primary-color: #90caf9;
 }
 
+@import "./_variables";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/projects";
+@import "./components/contact";
+@import "./components/footer";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+  transition: background 0.3s, color 0.3s;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/*glassmorphism*/
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 }

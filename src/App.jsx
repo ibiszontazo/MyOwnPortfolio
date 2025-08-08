@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+
+
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -20,3 +22,15 @@ function App() {
 }
 
 export default App;
+
+
+const API = "http://localhost:3000";
+
+fetch(`${API}/db`)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.log(error);
+    });
