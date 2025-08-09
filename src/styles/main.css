@@ -121,6 +121,7 @@
   gap: 20px;
   align-items: end;
   width: 40%;
+  color: var(--text-color);
 }
 
 .contact input, .contact textarea {
@@ -134,10 +135,12 @@
   padding: 4%;
   border-radius: 15px;
   outline: none;
+  color: var(--text-color);
 }
 
 .contact textarea {
   height: 160px;
+  color: var(--text-color);
 }
 
 .footer {
