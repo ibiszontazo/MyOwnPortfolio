@@ -24,13 +24,3 @@ function App() {
 export default App;
 
 
-const API = "http://localhost:3000";
-
-fetch(`${API}/db`)
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-    })
-    .catch(error => {
-        console.log(error);
-    });

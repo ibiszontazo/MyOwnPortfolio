@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Aplikacja do zarządzania budżetem",
+      "description": "Responsywna aplikacja do śledzenia wydatków i dochodów z wizualizacją danych.",
+      "technologies": ["React", "Context API", "CSS"],
+      "image": "https://example.com/budget-app.png"
+    },
+    {
+      "id": 2,
+      "title": "Strona rezerwacji wizyt online",
+      "description": "System rezerwacji z panelami dla pacjenta i lekarza.",
+      "technologies": ["React", "React Router", "Redux"],
+      "image": "https://example.com/booking-app.png"
+    }
+  ],
+  "about": {
+    "name": "Jan Kowalski",
+    "bio": "Jestem deweloperem front-end specjalizującym się w React. Pasjonuję się tworzeniem intuicyjnych i responsywnych interfejsów użytkownika."
+  }
+}
