@@ -1,9 +1,9 @@
-import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 function Hero() {
     return (
         <section className="hero" id="hero">
-            <img src={'/assets/images/pika.webp'} />
+            <motion.img src={'/assets/images/pika.webp'} />
             <motion.h1
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}

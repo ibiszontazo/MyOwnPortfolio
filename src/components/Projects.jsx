@@ -2,13 +2,13 @@ const projects = [
     {
         title: "Weather App",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
-        link: "https://github.com/twoj-login/",
+        link: "https://github.com/",
         image: "https://via.placeholder.com/300x200"
     },
     {
         title: "ToDo App",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.",
-        link: "https://github.com/twoj-login/",
+        link: "https://github.com/",
         image: "https://via.placeholder.com/300x200"
     }
 ];

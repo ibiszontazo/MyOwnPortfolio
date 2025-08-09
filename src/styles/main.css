@@ -65,6 +65,9 @@
   position: absolute;
   top: 95px;
 }
+.hero img:hover {
+  transform: skew(10deg, 7deg);
+}
 
 .hero .btn-primary {
   background-color: var(--text-color);

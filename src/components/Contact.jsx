@@ -17,10 +17,10 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Tutaj logika do wysyłania formularza, np. do zewnętrznego serwisu
+        // Logika do wysyłania formularza, np. do zewnętrznego serwisu
         console.log('Dane z formularza:', formData);
         alert('Wiadomość wysłana!');
-        setFormData({ name: '', email: '', message: '' }); // Reset formularza
+        setFormData({ name: '', email: '', message: '' });
     };
 
     return (
