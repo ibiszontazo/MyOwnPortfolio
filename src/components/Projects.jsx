@@ -1,14 +1,14 @@
 const projects = [
     {
         title: "Weather App",
-        description: "Aplikacja pogodowa z API OpenWeatherMap.",
-        link: "https://github.com/twoj-login/weather-app",
+        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
+        link: "https://github.com/twoj-login/",
         image: "https://via.placeholder.com/300x200"
     },
     {
         title: "ToDo App",
-        description: "Lista zadań z lokalnym zapisem danych.",
-        link: "https://github.com/twoj-login/todo-app",
+        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.",
+        link: "https://github.com/twoj-login/",
         image: "https://via.placeholder.com/300x200"
     }
 ];

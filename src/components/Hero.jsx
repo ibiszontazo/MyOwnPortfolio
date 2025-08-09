@@ -3,12 +3,13 @@ import { motion } from "framer-motion"
 function Hero() {
     return (
         <section className="hero" id="hero">
+            <img src={'/assets/images/pika.webp'} />
             <motion.h1
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
             >
-                Cześć! Jestem Filip 👋
+                Cześć! Jestem Filip!
             </motion.h1>
             <motion.p
                 initial={{ opacity: 0, y: 50 }}
