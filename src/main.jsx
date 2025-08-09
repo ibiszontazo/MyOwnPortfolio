@@ -6,3 +6,4 @@ import App from './App.jsx'
 createRoot(document.getElementById('App')).render(
     <App />
 )
+ReactDOM.render(<App />, document.querySelector(".App"));
