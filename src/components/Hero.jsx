@@ -1,9 +1,10 @@
 import { motion } from "motion/react"
+import pikaImage from '/assets/images/pika.webp';
 
 function Hero() {
     return (
         <section className="hero" id="hero">
-            <motion.img src={'/assets/images/pika.webp'} />
+            <motion.img src={pikaImage} />
             <motion.h1
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
