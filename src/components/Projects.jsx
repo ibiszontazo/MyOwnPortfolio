@@ -1,12 +1,12 @@
 const projects = [
     {
-        title: "Custom App",
-        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
-        link: "https://github.com/",
-        image: "https://via.placeholder.com/300x200"
+        title: "🌞 Weather App",
+        description: "Check the current weather forecast!",
+        link: "https://github.com/ibiszontazo/WeatherApp",
+        image: "https://via.placeholder.com/300x2"
     },
     {
-        title: "Custom App",
+        title: "Future App",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.",
         link: "https://github.com/",
         image: "https://via.placeholder.com/300x200"
@@ -20,7 +20,6 @@ function Projects() {
             <div className="project-grid">
                 {projects.map((p, index) => (
                     <div className="project-card" key={index}>
-                        <img src={p.image} alt={p.title} />
                         <h3>{p.title}</h3>
                         <p>{p.description}</p>
                         <a href={p.link} target="_blank" rel="noreferrer">Zobacz projekt</a>
