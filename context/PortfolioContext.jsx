@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
-import portfolioData from '../data/portfolioData.json';
+import portfolioData from '../db.json';
 
 const PortfolioContext = createContext();
 
@@ -10,7 +10,6 @@ export const PortfolioProvider = ({ children }) => {
     });
 
     useEffect(() => {
-        // Symulacja pobierania danych i zapis do localStorage
         if (localStorage.getItem('portfolioData')) {
             setData(JSON.parse(localStorage.getItem('portfolioData')));
         } else {
